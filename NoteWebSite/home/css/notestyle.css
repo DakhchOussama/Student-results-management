@@ -1,0 +1,164 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+body {
+  color: slategray;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 2rem 0rem 0rem 0rem;
+  max-width: 1100px;
+  margin-left: 125px;
+}
+
+.table-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.8em 1.2em;
+  overflow: hidden;
+  list-style-type: none;
+  outline: 1px solid #ddd;
+  text-align: center;
+  font-weight: 300;
+  margin: {
+    top: 1px;
+    left: 1px;
+  }
+  &:first-child {
+  	outline: 1px solid #fff;
+    background: transparent;
+  	@media only screen and (max-width : 768px) {
+			display: none;
+		}
+  }
+  &:nth-child(3) {
+    outline: 1px solid #30305b;
+  }
+  &:nth-child(-n+3) {
+  	padding: {
+  		top: 40px;
+  		bottom: 40px;
+  	}
+  }
+  > h3 {
+    font-size: 26px;
+  	margin: {
+  		top: 0;
+  		bottom: 3rem;
+  	}
+  }
+  &.cell-feature {
+	  text-align: left;
+    font-size: 18px;
+  }
+  &.plattform {
+    color: limegreen;
+    a.btn {
+      color: limegreen;
+      &:hover {
+        background-color: limegreen;
+        border-color: limegreen;
+        color: white;
+      }
+    }
+  }
+  &.enterprise {
+    background-color: #30305b;
+    color: #85bafc;
+    a.btn {
+      color: #85bafc;
+      &:hover {
+        background-color: #85bafc;
+        border-color: #85bafc;
+        color: #30305b;
+      }
+    }
+  }
+}
+
+/* Table columns
+================================== */
+.table-cell  {
+  width: calc(33.33% - 1px);
+  &.cell-feature {
+	  @media only screen and (max-width : 768px) {
+		  width: 100%;
+		  text-align: center;
+	  }
+  }
+}
+
+svg.enterprise-check path {
+  fill: #30305b !important;
+}
+
+a.btn {
+  border: 2px solid;
+  padding: .6rem .9rem .6rem .9rem;
+  font-weight: 400;
+  text: {
+    transform: uppercase;
+    decoration: none;
+  }
+  @include transition(0.2s ease-in-out);
+  @include border-radius(.3rem);
+}
+
+
+.table{
+  border-collapse:collapse;
+  font-size:0.9em;
+  min-width: 400px;
+}
+.thead1{
+  background-color: #483D8B;
+  color: #fff;
+}
+.thead1 tr{
+  text-align:left;
+  font-weight: bold;
+}
+
+.table th, .table td{
+  padding:12px 15px; 
+}
+
+
+.thead2{
+  background-color: #3d598b;
+  color: #fff;
+}
+
+.thead4{
+   background-color:#5b4daf;
+   color: #fff;
+}
+.thead3{
+  background-color:#f1eff8;
+
+}
+
+
+
+
+
+
+
+
+

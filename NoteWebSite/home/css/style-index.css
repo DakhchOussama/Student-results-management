@@ -1,0 +1,228 @@
+*{margin: 0px;padding: 0px;}
+body{
+	font-size: 13px;
+	font-family: tahoma;
+	background: #fff;
+}
+a{
+  text-decoration: none;
+}
+ul{list-style: none;}
+
+.right{float: right;}
+.left{float: left;}
+
+/*--hna kayn header dail site--*/
+
+.headertop{
+	background:#483D8B;
+	color: #fff;
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+.headertop ul {margin: 0px;padding: 0px; }
+.headertop ul li {float: left;}
+.headertop ul li a{
+    padding: 9px;
+    margin: 10px;
+   color: #fff;
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.headertop ul li a:hover{ 
+	color :#563d7c;
+	background-color: #ffffff;}
+
+.clear{
+	clear: both;
+}
+
+.headerbottom{
+  color: #563d7c;
+  font-size: 12px;
+  font-family: tahoma;
+  overflow: hidden;
+  height: 65px;
+  background-color: #fff;
+  box-shadow: 2px 3.464px 9px 0 rgba(0,0,0,0.062);
+  border-top: 1px solid;
+  border-top-color: rgba(74,74,74,0.05);
+}
+
+.headerbottom ul { }
+.headerbottom ul li {float: left;}
+.headerbottom ul li a{
+    padding: 22px;
+    color: #563d7c;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.headerbottom ul li a:hover{ 
+  color :#fff;
+  background-color: #563d7c;}
+  .headerbottom ul li a .active{ background-color: #563d7c;}
+  /*.homel{ background-color: #dddddd;}*/
+
+#home{
+width: 990px;
+margin: auto;
+}
+.social{
+	float: right;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: #563d7c;
+}
+
+.fa-twitter {
+  color: #563d7c;
+}
+.fa-youtube {
+  color: #563d7c;
+}
+
+.hea{    
+    height: 135px;
+    width: 100px;
+}
+.logo{
+    width: 10px;
+    padding: 02px;
+    float: left;}
+.ads{float: right;}
+.search-container{float:right;    margin: 32px 1px 1px 17px; }
+
+.topnav input[type=text] {
+     padding: 4px;
+    margin-top: -11px;
+    font-size: 17px;
+    color: #ccc;
+    border: 1px solid #dddddd;
+
+}
+-----serche bar------
+
+ .search-container button {
+    float: right;
+    padding: 5px 10px;
+    margin-top: -12px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+ .search-container button:hover {
+  background: #ccc;}
+
+/*------------*/
+.blockcontent{
+  float: right;
+  width: 300px;
+  height: 200px;     
+  margin-top: 11px;
+}
+.contentb{    
+  float: left;
+  width: 680px;
+  margin-top: 11px;
+}
+
+.titleb{    
+    background-clip: content-box;
+    background-color: #1E90FF;
+    border: 1px solid #0d1d31;
+    color: #fff;
+    font-size: 16px;
+    line-height: 2.125;
+    padding: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contentblock{
+  background: #ccc;
+  padding: 4px;
+}
+#pad{    margin: 6px;     background: #563d7c;}
+#pad2{     max-width: 97.666667%;   }
+.input-xlarge{    padding: 6px;
+    width: 251px;
+    margin: 13px;}
+.profil_box{
+  padding: 2px;
+  vertical-align: top;
+   margin: 6px;
+   display: block;
+   position: absolute;
+   right: 100px;
+   font-size: 1.8em;
+   text-align: center;
+   width: 110px;
+   
+}
+.profil_picure {
+    
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    
+    box-sizing: border-box;
+    line-height: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.username{
+  color: #3e98d1;
+  font-size: 15px;
+}
+.profil_box{
+  margin-top: 0px;
+  margin-bottom: 7px;
+  height: 135px; 
+}
+.logout{
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

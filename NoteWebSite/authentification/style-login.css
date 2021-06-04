@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+	background: url(image/background.jpg);
+    background-size: cover;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    
+}
+.box_img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 160px;
+    width: 100%;
+    background-color: white;
+}
+img{
+    
+    color: #663399;
+    font-size: 0px;
+    padding: 10px 0;
+    margin-right: 8px;
+    margin-left:8px; 
+}
+
+.box .inputbox{
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.input2{
+    margin-bottom:40px; 
+}
+.box .inputbox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #3d3d65;
+    outline: none;
+    background: transparent;
+}
+.box .inputbox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #3e98d1;
+    pointer-events: none;
+    transition: .5s;
+}
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label{
+    top: -18px;
+    left: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.box input[type="submit"]{
+  
+    border:none;
+    background-color: #3e98d1;
+    outline: none;
+    color : white;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin: 12px 0;
+}
+.pass_forgot {
+    
+    text-align: center;
+    font-size: 0.7em;
+}
+.pass_forgot a{
+   color:#3d3d65; 
+}
+
+
